@@ -2,6 +2,8 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainExchange from './components/MainExchange';
+import MainProductDetail from "./components/MainProductDetail";
+
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Header />
       <main className="main">
         <MainExchange/>
-        <section></section>
+        <MainProductDetail/>
         <section></section>
         <section></section>
       </main>

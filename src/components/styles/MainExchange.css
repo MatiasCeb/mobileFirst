@@ -35,31 +35,3 @@
     line-height: 1.6rem;
     color: #757575;
 }
-.tables--bitcoin-span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("../assets/icons/trending-down.svg");
-}
-.tables--ethereum-span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("../assets/icons/trending-up.svg");
-}
-.tables--ripple-span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("../assets/icons/trending-down.svg");
-}
-.tables--stellar-span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("../assets/icons/trending-down.svg");
-}
