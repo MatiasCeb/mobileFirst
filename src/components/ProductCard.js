@@ -7,7 +7,7 @@ const ProductCard = (props) => {
 
     return (
         <div className="product-detail--card">
-            <div className="clock" background-image={product.image}></div>
+            <img className="clock" src={product.image}/>
             <div className="product--card-title">{product.title}</div>
             <div className="product--card-text">{product.text}</div>
         </div>

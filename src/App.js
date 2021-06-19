@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainExchange from './components/MainExchange';
 import MainProductDetail from "./components/MainProductDetail";
-
+import BitcoinImg from './components/BitcoinImg';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main className="main">
         <MainExchange/>
         <MainProductDetail/>
-        <section></section>
+        <BitcoinImg/>
         <section></section>
       </main>
       <Footer />
