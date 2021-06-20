@@ -10,7 +10,10 @@ const MainExchange = () => {
                 <h2 className="main-exchange-container--h2">Visibilizamos todas las tasas de cambio.</h2>
                 <p className="main-exchange-container--p">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
-            <Table/>
+            <div className="main-tables-container">
+                <Table/>
+                <Table/>
+            </div>
         </section>
     )
 };

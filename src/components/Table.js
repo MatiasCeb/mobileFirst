@@ -3,7 +3,7 @@ import "./styles/Table.css";
 
 const Table = () => {
     return (
-        <section className="main-tables-container">
+        <section>
             <div className="main-currency-table">
                 <p className="currency-table--title">Monedas</p>
                 <div className="currency-table--container">

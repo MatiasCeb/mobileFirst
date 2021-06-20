@@ -35,3 +35,10 @@
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    gap: 20px;
+    height: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+}
