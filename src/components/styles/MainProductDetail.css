@@ -6,7 +6,7 @@
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background-color: var(--warm-black);
+    background-color: rgb(16, 2, 38);
 }
 .main--img {
     position: absolute;

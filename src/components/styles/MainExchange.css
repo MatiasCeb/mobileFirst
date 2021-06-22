@@ -4,6 +4,7 @@
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
+    background: rgb(16, 2, 38);
 }
 .backgroundImg {
     width: 200px;
@@ -26,19 +27,19 @@
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--black);
+    color: var(--off-white);
 }
 .main-exchange-container--p {
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    color: rgb(108, 121, 134);
 }
 .main-tables-container {
+    justify-content: center;
     display: flex;
     gap: 20px;
     height: auto;
-    overflow-x: scroll;
     scroll-snap-type: x proximity;
 }

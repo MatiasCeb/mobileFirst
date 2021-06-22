@@ -90,7 +90,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.currency-table--date {
+/* .currency-table--date {
     width: 190px;
     min-width: 230px;
     max-width: 300px;
@@ -100,7 +100,7 @@
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
-}
+} */
 .currency-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;

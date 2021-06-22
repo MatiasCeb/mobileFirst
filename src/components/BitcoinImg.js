@@ -4,7 +4,7 @@ import "./styles/BitcoinImg.css";
 const BitcoinImg = () => {
     return (
         <div className="BitcoinImg--container">
-            <h2>Conócelo hoy</h2>
+            <h2>Contact Me!</h2>
         </div>
     )
 }

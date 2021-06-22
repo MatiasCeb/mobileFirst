@@ -18,8 +18,8 @@ const MainProductDetail = () => {
         <div className="main-product-detail">
             <div className="main--img" alt="" />
             <div className="product-detail--title">
-                <h2>Creamos un producto sin comparación.</h2>
-                <p>Confiable y diseñado para su uso diario.</p>
+                <h2>My projects</h2>
+                <p>Some of my babys.</p>
             </div>
             <StyledProduct>            
                 {products.map((product) =>              
