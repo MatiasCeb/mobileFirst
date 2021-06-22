@@ -6,6 +6,15 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+.plans-container--sliderbig {
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    justify-content: center;
+}
 .plans-container--card {
     position: relative;
     scroll-snap-align: center;
