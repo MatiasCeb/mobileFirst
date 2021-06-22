@@ -8,7 +8,6 @@ const StyledTables = styled.section`
     display: flex;
     gap: 20px;
     height: auto;
-    overflow-x: scroll;
     scroll-snap-type: x proximity;
         @media (min-width: 930px) {
         justify-content: center;
