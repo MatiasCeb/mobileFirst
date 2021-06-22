@@ -6,9 +6,9 @@ const Footer = () => {
         <div className="footer-container">
             <section className="section">
                 <ul>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Crunchbase</a></li>
-                    <li><a href="#">Hackernews</a></li>
+                    <li><a href="https://www.instagram.com/matiasceb/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/matías-ceballos-424001182/">Linkedin</a></li>
+                    <li><a href="https://github.com/MatiasCeb">Github</a></li>
                 </ul>
             </section>
             <section className="section">
