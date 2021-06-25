@@ -14,6 +14,10 @@ const MainExchange = () => {
                 <p className="main-exchange-container--p">An experienced project manager with knowledge on react and javascript with a mix of soft skill.</p>
             </div>
             <div className="backgroundImg"></div>
+            <div className="product-detail--title">
+                <h2>My projects</h2>
+                <p>Some of my babys.</p>
+            </div>
             <StyledProject>
                 {projects.map((project) =>              
                     <ProjectCard key={project.id} project={project}/>)}
