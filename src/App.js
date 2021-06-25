@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import MainExchange from './components/MainExchange';
 import MainProductDetail from "./components/MainProductDetail";
 import BitcoinImg from './components/BitcoinImg';
-import Plans from './components/Plans';
 
 
 class App extends Component {
