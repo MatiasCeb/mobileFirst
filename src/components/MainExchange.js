@@ -1,18 +1,9 @@
 import React from "react";
-import Table from "./Table";
+import projects from "./shared/projects";
+import ProjectCard from "./ProjectCard";
 import "./styles/MainExchange.css";
-import styled from "styled-components";
+import StyledProject from "./styles/StyledProject";
 
-const StyledTables = styled.section`
-    justify-content: center;
-    display: flex;
-    gap: 20px;
-    height: auto;
-    scroll-snap-type: x proximity;
-        @media (min-width: 930px) {
-        justify-content: center;
-    }
-`;
 
 
 const MainExchange = () => {
@@ -23,9 +14,10 @@ const MainExchange = () => {
                 <p className="main-exchange-container--p">An experienced project manager with knowledge on react and javascript with a mix of soft skill.</p>
             </div>
             <div className="backgroundImg"></div>
-            <StyledTables>
-                <Table/>
-            </StyledTables>
+            <StyledProject>
+                {projects.map((project) =>              
+                    <ProjectCard key={project.id} project={project}/>)}
+            </StyledProject>
         </section>
     )
 };

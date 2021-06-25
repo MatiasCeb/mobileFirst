@@ -1,0 +1,37 @@
+.Navbar {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: rgb(16, 2, 38);
+}
+.Navbar__brand {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.Navbar__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.Navbar__brand-logo {
+    margin-right: 0.1rem;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    align-self: center;
+}
+.Header-name {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+    vertical-align: -webkit-baseline-middle;
+}
+.Header-lastname {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+    vertical-align: -webkit-baseline-middle;
+}
