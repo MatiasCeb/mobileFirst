@@ -6,9 +6,9 @@ const Footer = () => {
         <div className="footer-container">
             <section className="section">
                 <ul>
-                    <li><a href="https://www.instagram.com/matiasceb/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/matías-ceballos-424001182/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://github.com/MatiasCeb" target="_blank">Github</a></li>
+                    <li><a href="https://www.instagram.com/matiasceb/" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/matías-ceballos-424001182/" rel="noopener noreferrer" target="_blank">Linkedin</a></li>
+                    <li><a href="https://github.com/MatiasCeb" rel="noopener noreferrer" target="_blank">Github</a></li>
                 </ul>
             </section>
             <section className="section">
