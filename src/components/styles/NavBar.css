@@ -1,7 +1,7 @@
 .Navbar {
     display: flex;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0.5rem 1rem 1rem 1.5rem;
     background-color: rgb(16, 2, 38);
     justify-content: space-between;
 }
@@ -38,13 +38,11 @@
     vertical-align: -webkit-baseline-middle;
 }
 .section {
-    display: flex;
     width: 50%;
+    justify-content: flex-end;
 }
 .navbar--img {
     margin-right: 5px;
     width: 20px;
     height: 20px;
-    justify-content:center;
-    align-items: center;
 }
