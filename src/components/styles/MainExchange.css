@@ -15,6 +15,13 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.mainexchange--img {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: -10px;
+        align-content: center;
+}
 .main-exchange-container--title {
     width: 90%;
     min-width: 288px;
