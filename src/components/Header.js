@@ -10,7 +10,7 @@ const Header = () => {
                 <h1 className="header--title-h1">Welcome! I´m Matías Ceballos</h1>
                 <p className="header--title-p">Frontend Developer</p>
                 <a href="#plans" className="header--button">
-                    Conoce nuestros planes <span className="header--button-span"></span>
+                    JS React Git StyledComponents <span className="header--button-span"></span>
                 </a>
             </div>
         </div>

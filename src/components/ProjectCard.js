@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
             <p className="card-item__details--subtitle">
                 {project.text}
             </p>
-            <p className="linkbutton">Repository</p><p className="linkbutton">Project</p>
+            <p className="linkbutton">Code</p><p className="linkbutton">Website</p>
         </div>
     </div>
     )

@@ -17,6 +17,9 @@ const StyledProject = styled.section`
 }
 
 .card-item:hover ~ .card-item {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
     /* -webkit-transform: translate3d(0px, 0, 0);
             transform: translate3d(100px, 0, 0); */
 }
@@ -67,11 +70,11 @@ const StyledProject = styled.section`
 }
 .linkbutton {
     /* box-sizing: border-box; */
-    /* display: flex; */
+    display: flex;
     padding: 5px;
     width: 50%;
     height: 40px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
     font-family: 'DM Sans', sans-serif;

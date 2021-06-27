@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/NavBar.css"
-import logo from "../logo.svg"
+import logo from "../components/assets/icons/devicon.png";
 
 class Navbar extends React.Component {
     render() {
