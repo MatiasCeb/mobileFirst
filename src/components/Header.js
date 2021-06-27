@@ -1,4 +1,7 @@
 import React from "react";
+import { skills } from "./shared/skills";
+import SkillCard from "./SkillCard";
+import StyledSkills from "./styles/StyledSkills";
 import "./styles/Header.css";
 
 
@@ -9,9 +12,10 @@ const Header = () => {
             <div className="header--title-container">
                 <h1 className="header--title-h1">Welcome! I´m Matías Ceballos</h1>
                 <p className="header--title-p">Frontend Developer</p>
-                <a href="#plans" className="header--button">
-                    JS React Git StyledComponents <span className="header--button-span"></span>
-                </a>
+                <StyledSkills>
+                    {skills.map((skill) =>              
+                        <SkillCard key={skill.id} skill={skill}/>)}
+                </StyledSkills>
             </div>
         </div>
     )
