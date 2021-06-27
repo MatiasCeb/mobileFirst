@@ -37,9 +37,14 @@
     color: rgb(108, 121, 134);
     vertical-align: -webkit-baseline-middle;
 }
-.section {
+.section--left {
+
+}
+.section--right {
+    display: flex;
     width: 50%;
     justify-content: flex-end;
+    align-items: center;
 }
 .navbar--img {
     margin-right: 5px;

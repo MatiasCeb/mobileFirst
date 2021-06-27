@@ -9,12 +9,12 @@ class Navbar extends React.Component {
     render() {
         return (
         <div className="Navbar">
-                <div classNAme="section">
+                <div classNAme="section--left">
                     <img className="Navbar__brand-logo" src={logo} alt="Logo"/>
                     <span className="Header-name">Matías</span>
                     <span className="Header-lastname">Ceb</span>
                 </div>
-                <div className="section">
+                <div className="section--right">
                     <div><a href="https://www.instagram.com/matiasceb/" rel="noopener noreferrer" target="_blank"><img className="navbar--img" src={instagram} alt="Logo" /></a></div>
                     <div><a href="https://www.linkedin.com/in/matías-ceballos-424001182/" rel="noopener noreferrer" target="_blank"><img className="navbar--img" src={linkedin} alt="Logo" /></a></div>
                     <div><a href="https://github.com/MatiasCeb" rel="noopener noreferrer" target="_blank"><img className="navbar--img" src={github} alt="Logo" /></a></div>
