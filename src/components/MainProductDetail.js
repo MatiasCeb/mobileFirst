@@ -20,7 +20,7 @@ const MainProductDetail = () => {
         <div className="main-product-detail">
             <img className="main--img" src={logo} alt="Logo" />
             <div className="product-detail--title">
-                <h2>Skills and experience.</h2>
+                <h2>Skills and experience</h2>
                 <p>What can I offer?</p>
             </div>
             <StyledProduct>            

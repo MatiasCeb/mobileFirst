@@ -8,7 +8,6 @@ const StyledProject = styled.section`
     display: inline-block;
     width: 200px;
     height: 250px;
-    margin-right: 10px;
     font-size: 20px;
     cursor: pointer;
     transition: 450ms all;
@@ -68,11 +67,15 @@ const StyledProject = styled.section`
     font-size: 1.3rem;
     margin: 3px 0px;
 }
+.card-link {
+    width: 100%;
+    justify-content: space-between;
+}
 .linkbutton {
-    /* box-sizing: border-box; */
-    display: flex;
+    display: inline-flex;
+    margin: 5px 5px;
     padding: 5px;
-    width: 50%;
+    width: 40%;
     height: 40px;
     /* margin-top: 20px; */
     border: 2px solid var(--bitcoin-orange);
@@ -82,6 +85,8 @@ const StyledProject = styled.section`
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--just-white);
+    text-decoration: none;
+    align-items: center;
     /* justify-content: center;
     align-items: center; */
     /* text-align: -webkit-match-parent; */

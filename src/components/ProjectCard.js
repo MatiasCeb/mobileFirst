@@ -13,7 +13,10 @@ const ProjectCard = (props) => {
             <p className="card-item__details--subtitle">
                 {project.text}
             </p>
-            <p className="linkbutton">Code</p><p className="linkbutton">Website</p>
+            <div className="card-link">
+                <a href={project.code} rel="noopener noreferrer" target="_blank" className="linkbutton">Code</a>
+                <a href={project.website} rel="noopener noreferrer" target="_blank" className="linkbutton">Website</a>
+            </div>
         </div>
     </div>
     )

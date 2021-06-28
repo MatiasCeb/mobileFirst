@@ -18,7 +18,7 @@ const MainExchange = () => {
             <img className="mainexchange--img" src={logo} alt="Logo" />
             <div className="product-detail--title">
                 <h2>My projects</h2>
-                <p>Some of my babys.</p>
+                <p>Some of my babies.</p>
             </div>
             <StyledProject>
                 {projects.map((project) =>              
