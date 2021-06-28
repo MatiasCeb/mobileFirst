@@ -16,22 +16,6 @@ export const projects =
             code:"https://github.com/MatiasCeb/PlatziVideo",
             website:"https://matcebvideo.netlify.app/",
         },
-        {
-            id: 2,
-            title:'ReacHooks',
-            image:"/assets/imgs/bitcoinbaby.jpg",
-            text:'No más rumores, con Batatabit sabrás el valor real de cada moneda en el mercado actual.',
-            code:"https://github.com/MatiasCeb/mobileFirst",
-            website:"https://matceb.netlify.app/",
-        },
-        {
-            id: 3,
-            title:'ReacHooks',
-            image:"/assets/imgs/bitcoinbaby.jpg",
-            text:'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
-            code:"https://github.com/MatiasCeb/mobileFirst",
-            website:"https://matceb.netlify.app/",
-        },
     ];
 
 
