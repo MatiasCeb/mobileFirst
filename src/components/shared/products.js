@@ -8,9 +8,9 @@ export const products =
         },
         {
             id: 1,
-            title:'Mejora continua',
+            title:'Kaizen and Agile',
             image:'/assets/icons/eye.svg',
-            text:'Filosofía de mejora continua.',
+            text:'Mejora progresiva en la generación de valor.',
         },
         {
             id: 2,
