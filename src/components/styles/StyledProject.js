@@ -13,6 +13,9 @@ const StyledProject = styled.section`
     transition: 450ms all;
     -webkit-transform-origin: center left;
             transform-origin: center left;
+        @media (min-width: 760px) {
+        margin: 10px
+        }
 }
 
 .card-item:hover ~ .card-item {

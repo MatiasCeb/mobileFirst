@@ -7,11 +7,12 @@
     background: rgb(16, 2, 38);
 }
 .backgroundImg {
+    width: 80%;
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
     background-image: url("../assets/imgs/front-developer.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }

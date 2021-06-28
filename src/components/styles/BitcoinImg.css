@@ -2,14 +2,14 @@
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url("../assets/imgs/bitcoinbaby2x.jpg");
+    background-image: url("../assets/imgs/contact2.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
 .BitcoinImg--container h2 {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
