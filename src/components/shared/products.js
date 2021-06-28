@@ -2,27 +2,27 @@ export const products =
     [
         {
             id: 0,
-            title:'Tiempo real',
+            title:'Manejo de Agenda',
             image:"/assets/icons/clock.svg",
-            text:'Nuestra API toma información minuto a minuto sobre las tasas que más determinan el comportamiento',          
+            text:'Efectividad en el uso del tiempo para cumplir con los requerimientos planteados por el equipo.',          
         },
         {
             id: 1,
-            title:'No hay tasas escondidas',
+            title:'Mejora continua',
             image:'/assets/icons/eye.svg',
-            text:'Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.',
+            text:'Filosofía de mejora continua.',
         },
         {
             id: 2,
-            title:'Compara monedas',
+            title:'Uso eficiente de los recursos',
             image:'/assets/icons/dollar-sign.svg',
-            text:'No más rumores, con Batatabit sabrás el valor real de cada moneda en el mercado actual.',
+            text:'Un análisis continuo enfocado en maximizar la utilidad de los recursos disponibles.',
         },
         {
             id: 3,
-            title:'Información confiable',
+            title:'Orientación a objetivos',
             image:'/assets/icons/check-circle.svg',
-            text:'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
+            text:'Garantizar el cumplimiento de los objetivos propuestos.',
         },
     ];
 
