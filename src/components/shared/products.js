@@ -2,27 +2,28 @@ export const products =
     [
         {
             id: 0,
-            title:'Manejo de Agenda',
-            image:"/assets/icons/clock.svg",
-            text:'Efectividad en el uso del tiempo para cumplir con los requerimientos planteados por el equipo.',          
+            title:'Goal oriented',
+            image:'/assets/icons/check-circle.svg',
+            text:'Set goals and work towards achieving them.',
         },
+
         {
             id: 1,
             title:'Kaizen and Agile',
             image:'/assets/icons/eye.svg',
-            text:'Mejora progresiva en la generación de valor.',
+            text:'Continuous improvement to identify opportunities,increasing profits, reducing costs and accelerating innovation.',
         },
         {
             id: 2,
-            title:'Uso eficiente de los recursos',
+            title:'Resource Management',
             image:'/assets/icons/dollar-sign.svg',
-            text:'Un análisis continuo enfocado en maximizar la utilidad de los recursos disponibles.',
+            text:'Planning, scheduling, and allocating organizational and project resources in the best possible way.',
         },
         {
             id: 3,
-            title:'Orientación a objetivos',
-            image:'/assets/icons/check-circle.svg',
-            text:'Garantizar el cumplimiento de los objetivos propuestos.',
+            title:'Time Management',
+            image:"/assets/icons/clock.svg",
+            text:'The highest achievers manage their time exceptionally well.',          
         },
     ];
 
