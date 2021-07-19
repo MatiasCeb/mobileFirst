@@ -10,11 +10,11 @@ export const projects =
         },
         {
             id: 1,
-            title:'PlatziVideo',
-            image:"/assets/imgs/video.jpg",
-            text:'A project of a course in Platzi using CSS, React, Sass',
-            code:"https://github.com/MatiasCeb/PlatziVideo",
-            website:"https://matcebvideo.netlify.app/",
+            title:'PlatziConf Merch',
+            image:"/assets/imgs/confmerch.jpg",
+            text:'A project of a course in Platzi using CSS, React, Router and Google Maps',
+            code:"https://github.com/MatiasCeb/Platzi-conf-merch",
+            website:"https://confmerch.netlify.app/",
         },
         {
             id: 1,
