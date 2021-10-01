@@ -11,7 +11,7 @@ export const products =
             id: 1,
             title:'Kaizen and Agile',
             image:'/assets/icons/eye.svg',
-            text:'Continuous improvement to identify opportunities,increasing profits, reducing costs and accelerating innovation.',
+            text:'Continuous improvement to identify opportunities, increasing profits, reducing costs and accelerating innovation.',
         },
         {
             id: 2,
