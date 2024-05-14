@@ -15,7 +15,7 @@ export const skills =
         {
             id: 2,
             title:'Java',
-            image:'/assets/icons/icons8-java-64px.png',
+            image:'/assets/icons/icons8-java-64.png',
             text:'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
         },
     ];
