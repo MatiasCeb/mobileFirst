@@ -14,8 +14,8 @@ export const skills =
         },
         {
             id: 2,
-            title:'Git',
-            image:'/assets/icons/icons8-git-gradient-64px.png',
+            title:'Java',
+            image:'/assets/icons/icons8-java-64px.png',
             text:'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
         },
     ];
